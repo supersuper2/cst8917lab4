@@ -27,8 +27,7 @@ Logic App (For Each trip result)
 ```
 
 ## Logic App Architecture
-
-
+![screenshot](logicapp/arc.PNG)
 
 ##  Azure Function Logic
 
