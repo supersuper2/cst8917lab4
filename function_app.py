@@ -4,7 +4,7 @@ import json
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
-@app.route(route="analyze_trip")
+@app.route(route="")
 def analyze_trip(req: func.HttpRequest) -> func.HttpResponse:
     try:
         input_data = req.get_json()
